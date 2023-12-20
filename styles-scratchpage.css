@@ -1,0 +1,153 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #ccb1fa;
+	margin:0px;
+	
+} 		
+
+#header {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	height: 135px;
+	border-bottom: 1px solid #000000;
+}
+.topcolor-div {
+
+	color: #fff;
+	padding: 69px;
+	margin: 0; 
+
+  }
+
+#navigation {
+    position: absolute;
+    top: 155px;
+    left: 10px;
+    width: 125px;
+    bottom: 10px;
+    border-right: 1px solid #000000;
+}
+/*Navigation Links*/
+#navigation a {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+
+    line-height: 2.0;
+
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#mainbody {
+    position: relative;
+    margin: 20px 145px 20px 145px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	font-family: "Montserrat"
+}
+nav {
+	position: static;
+	width: auto;
+	border-right: none;
+	margin-bottom: 20px;
+}
+
+p {
+    color: #666666;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    font-family: "Montserrat"
+    font-weight: bold;
+    text-decoration: underline;
+	padding-top: 60px;
+}
+#photo {
+	float: left;
+	margin-right: 15px;
+	transition: width 2s, height 2s, transform 2s;
+	-moz-transition: width 2s, height 2s, -moz-transform 2s;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+	-o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.topImage {
+	opacity:0.2;
+    filter:alpha(opacity=20);
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Safari and Chrome */
+	-o-transform: rotate(90deg); /* Opera */
+	-moz-transform: rotate(90deg); /* Firefox */
+	position: absolute;
+	right: -40px;
+}
+
+#info {
+    position: absolute;
+    left: 170px;
+    top: -20px;
+    color: #000000;
+    transform: scale(2); /* Adjust the scale factor as needed */
+    transform-origin: top left; /* Maintain the top-left corner as the origin */
+}
+
+
+p {
+	color: #666666;
+	text-align: justify;
+	line-height: 1.0;
+}
+
+p.contact {color: black;}
+
+.subHeading {font-weight: bold;}
+
+a:link {
+	color: #242251; 
+	text-decoration: none;
+	font-weight: bold; 
+	line-height: 2.0;
+}
+a:hover {text-decoration: underline;}
+a:visited {color: #5D4157;}
+
+.Welcome {
+	font-weight: bold;
+	Text-align:center;
+	font-family: "Montserrat";
+	font-size: 22px;
+
+	color:#000000
+
+}
+
+/*Top Info*/
+.careerInterests {
+	font-weight: normal; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	color:#000000
+}
+.resumeHeadings {
+	font-weight: bold; 
+	text-decoration: underline;
+	font-family: "Montserrat";
+}
+
+iframe{
+Padding-top: 25px;
+padding-bottom: 25px;
+
+}
